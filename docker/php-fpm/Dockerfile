@@ -22,8 +22,8 @@ RUN docker-php-ext-install \
     zip
 RUN composer install
 RUN chown www-data:www-data -R /var/www/html
-COPY nginx-site.conf /etc/nginx/sites-enabled/default
-COPY entrypoint.sh /etc/entrypoint.sh
+COPY . /docker/nginx/nginx.conf /etc/nginx/sites-enabled/default
+COPY . /docker/entrypoint.sh /etc/entrypoint.sh
 RUN chmod +x /etc/entrypoint.sh
 EXPOSE 80
 CMD ["/etc/entrypoint.sh"]
