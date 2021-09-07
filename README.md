@@ -3,6 +3,14 @@
 
 // Run Migration command 
 
+```
+ doctrine:migrations:migrate
+
+```
+
+Private and Public URL's
+
+
 ``` 
 // Register user url 
 http://localhost:8000/api/register
