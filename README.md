@@ -15,5 +15,5 @@ http://localhost:8000/api/url/delete/2
 
 
 // Public URL 
-// http://localhost:8000/api/all/url
-// http://localhost:8000/your_url_token
+http://localhost:8000/api/all/url
+http://localhost:8000/your_url_token
