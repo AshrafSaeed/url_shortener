@@ -3,7 +3,6 @@
 
 ``` 
 
-// for Laravel clear cache
 http://localhost:8000/api/register
 http://localhost:8000/api/login
 
